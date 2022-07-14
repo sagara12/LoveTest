@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoveTest</string>
+    <string name="main_title">당신의 사랑 타입에서 \n 대해 함께 알아볼께요</string>
+    <string name="question">여기에 좋아하는 꽃들이 \n 꽃병에 있습니다. \n 꽃들이 다 시들었을때 \n 어떻게 행동하시겠습니까?</string>
+</resources>
