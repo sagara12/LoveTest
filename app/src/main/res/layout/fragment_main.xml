@@ -23,6 +23,7 @@
         />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="260dp"
         android:layout_height="400dp"
         android:src="@drawable/main_img"
@@ -32,6 +33,7 @@
         tools:layout_editor_absoluteY="252dp" />
 
     <ImageView
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/next"

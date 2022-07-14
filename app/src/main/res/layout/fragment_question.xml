@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".fragment.MainFragment">
+    tools:context=".fragment.QuestionFragment">
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,6 +32,7 @@
         tools:layout_editor_absoluteY="258dp" />
 
     <ImageView
+        android:id="@+id/btn_next"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/next"

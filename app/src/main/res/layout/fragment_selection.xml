@@ -21,12 +21,12 @@
             android:id="@+id/option_1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="1. 버린다"
-            android:background="@drawable/selection"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_weight="1"
+            android:background="@drawable/selection"
+            android:gravity="center"
+            android:text="1. 버린다" />
 
         <TextView
             android:id="@+id/option_2"
@@ -58,8 +58,16 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/selection"/>
 
-
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/previous"
+        app:layout_constraintBaseline_toBottomOf="@id/guideline4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="739dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
